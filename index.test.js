@@ -44,3 +44,4 @@ describe('index.html', () => {
     expect(generatedParagraphs.length).toBe(1)
   })
 })
+
