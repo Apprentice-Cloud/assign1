@@ -1,11 +1,8 @@
 var input = document.getElementById('name');
 var btn = document.getElementById('btn');
+var hello = document.getElementById('hello');
 var b = false;
 function sayHello() {
-    var paragraph = document.createElement('p');
-    paragraph.innerText = "Hello " + input.value + ", welcome to the bootcamp";
-    document.body.append(paragraph);
+    hello.innerText = "Hello " + input.value + ", welcome to the bootcamp";
   }
 btn.addEventListener('click', sayHello);
-
-;

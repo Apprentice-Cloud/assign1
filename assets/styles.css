@@ -1,0 +1,56 @@
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background: #F9F9F9;
+  
+}
+
+.container{
+  margin: 5rem auto;
+  width: 70%;
+  max-width: 550px;
+  padding: 20px;
+  min-height: 250px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 12px -4px #2222;
+}
+
+label {
+  display: flex;
+}
+
+input {
+  width: 50%;
+  padding: .5rem;
+  letter-spacing: .1rem;
+  margin: 0 .5rem;
+  border-radius: 3px;
+  border: 1px solid #222;
+}
+
+input:focus,
+input:hover{
+  outline: 0;
+  border: 2px solid #F7E2D6;
+}
+
+button {
+  font: size; 1rem;
+  border: none;
+  padding: .7rem 1rem;
+  border-radius: 3px;
+  background: #F9F2ED;
+  margin-top: 1.2rem;
+  letter-spacing: .3rem;
+}
+
+button:hover {
+  background: #F7E2D6;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+
